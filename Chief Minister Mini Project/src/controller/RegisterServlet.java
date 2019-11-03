@@ -18,6 +18,7 @@ public class RegisterServlet extends HttpServlet
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
 		PrintWriter pw = response.getWriter();
+		pw.println("<link rel=\"stylesheet\" href=\"servlet-style.css\">");
 		
 		String scid=request.getParameter("cid");
 		int cid=Integer.parseInt(scid);

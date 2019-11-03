@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style type="text/css">
+p{font-size:20px;font-family:arial;}
+</style>
+<!-- <link rel="stylesheet" type="text/css" href=""> -->
 <meta charset="ISO-8859-1">
 <title>Registration Page</title>
 </head>
 <body>
-
+<p>REGISTRATION PAGE</p>
 <form action="RegisterServlet" method="post">
-	Chief Minister id : <input type= "text" name="cid"><br>
-	Chief Minister Name :<input type= "text" name="cname"><br>
-	Qualification :<input type= "text" name="qualification"><br>
-	State :<input type= "text" name="state"><br>
-	End Date :<input type= "text" name="endDate"><br>
-	Party :<input type= "text" name="party"><br>
-	<input type="submit" value = "Register">
-	
-
+	<table>
+	<tr>
+		<td>Chief Minister id :</td><td> <input type= "text" name="cid"></td>
+	</tr>
+	<tr>
+		<td>Chief Minister Name :</td><td><input type= "text" name="cname"></td>
+	</tr>
+	<tr>
+		<td>Qualification :</td><td><input type= "text" name="qualification"></td>
+	</tr>
+	<tr>
+		<td>Qualification :</td><td><input type= "text" name="qualification"></td>
+	</tr>
+	<tr>	
+		<td>State :</td><td><input type= "text" name="state"></td>
+	</tr>
+	<tr>
+		<td>End Date :</td><td><input type= "text" name="endDate"></td>
+	</tr>
+	<tr>
+		<td>Party :</td><td><input type= "text" name="party"></td>
+	</tr>
+	<tr>
+	<td colspan=2><input type="submit" value = "Register"></td>
+	</tr>
+	</table>
 </form>
 
 </body>
